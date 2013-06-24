@@ -1,0 +1,1101 @@
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body { 
+    font-family: "Raleway",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+
+a {
+    color:#93C;
+}
+
+a:hover {
+    color:#662d91;
+}
+
+footer a {
+    color: #CCC;
+}
+
+footer a:hover {
+    color: #333;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.row-seperator {
+    background: url('/assets/img/row-seperator.jpg') top center no-repeat;
+    padding-top:20px;
+    margin-top: 0px;
+    border: none;
+}
+
+.dotBorderLeft {
+    border-left: 1px dotted #000;
+}
+
+.dotBorderRight {
+    border-right: 1px dotted #000;
+}
+
+.leftPad0 {
+    padding-left: 0px;
+}
+.leftPad5 {
+    padding-left: 5px;
+}
+.leftPad10 {
+    padding-left: 10px;
+}
+.leftPad20 {
+    padding-left: 20px;
+}
+.leftPad30 {
+    padding-left: 30px;
+}
+.leftPad40 {
+    padding-left: 40px;
+}
+.leftPad50 {
+    padding-left: 50px;
+}
+.leftPad60 {
+    padding-left: 60px
+}
+.leftPad70 {
+    padding-left: 70px;
+}
+.leftPad80 {
+    padding-left: 80px
+}
+.leftPad90 {
+    padding-left: 90px;
+}
+.leftPad100 {
+    padding-left: 100px;
+}
+
+.rightPad0 {
+    padding-right: 0px
+}
+.rightPad5 {
+    padding-right: 5px
+}
+.rightPad10 {
+    padding-right: 10px
+}
+.rightPad20 {
+    padding-right: 20px
+}
+.rightPad30 {
+    padding-right: 30px
+}
+.rightPad40 {
+    padding-right: 40px
+}
+.rightPad50 {
+    padding-right: 50px
+}
+.rightPad60 {
+    padding-right: 60px
+}
+.rightPad70 {
+    padding-right: 70px
+}
+.rightPad80 {
+    padding-right: 80px
+}
+.rightPad90 {
+    padding-right: 90px
+}
+.rightPad100 {
+    padding-right: 100px
+}
+.borderTop{
+    border-top: 1px solid #aeaeae;
+}
+.topPad0 {
+    padding-top: 0px;
+}
+.topPad5 {
+    padding-top: 5px;
+}
+.topPad10 {
+    padding-top: 10px;
+}
+.topPad15 {
+    padding-top: 15px;
+}
+.topPad20 {
+    padding-top: 20px;
+}
+.topPad30 {
+    padding-top: 30px;
+}
+.topPad40 {
+    padding-top: 40px;
+}
+.topPad50 {
+    padding-top: 50px;
+}
+.botPad5 {
+    padding-bottom: 5px;
+}
+.botPad10 {
+    padding-bottom: 10px;
+}
+.botPad15 {
+    padding-bottom: 15px;
+}
+.botPad20 {
+    padding-bottom: 20px;
+}
+.botPad25 {
+    padding-bottom: 25px;
+}
+.botPad30 {
+    padding-bottom: 30px;
+}
+.botPad40 {
+    padding-bottom: 40px;
+}
+.botPad50 {
+    padding-bottom: 50px;
+}
+.marginBot0 {
+    margin-bottom: 0px;
+}
+.marginBot10 {
+    margin-bottom: 10px;
+}
+.marginTop30 {
+    margin-top: 30px;
+}
+h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.border-dark-grey {
+    border: 1px solid #333;
+}
+
+.border-light-grey {
+    border: 1px solid #dcdcdc !important
+}
+
+.light-grey {
+    background: #F7F7F7;
+    color: #8c8c8c !important;
+}
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+
+.banner { height: 105px; }
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner { border: none; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; position: relative; z-index: 1000;}
+.navbar-inner .container { position: relative; }
+.nav-main{ position: absolute; bottom: 0; right: 0; }
+.navbar .btn-navbar {
+    padding: 6px 0 0 0;
+    margin: 0;
+    border: none;
+    background: transparent;
+}
+.navbar .btn-navbar img {
+    width: 32px;
+    height: 32px;
+}
+.navbar .nav>li>a {
+    color: #333;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: none;
+    border-bottom: 3px solid #FFFFFF;
+}
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus, .navbar .nav>li>a:hover, navbar .nav>li.open>a:hover,.navbar .nav li.dropdown.open>.dropdown-toggle {
+    color: #9933CC;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 3px solid #9933CC;
+    font-size: 14px;
+}
+
+.navbar .nav li.dropdown.open>.dropdown-toggle, .navbar .nav li.dropdown.active>.dropdown-toggle, .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+    background-color: transparent;
+}
+
+.nav .dropdown-menu {
+    margin: 5px 0 0 0;
+    padding: 0;
+    border: none;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+.nav .dropdown-menu li {
+    border-bottom: 1px solid #CCC;
+}
+.nav .dropdown-menu li:first-child {
+    border-top: 1px solid #CCC;
+}
+.navbar .nav > li > .dropdown-menu::after, .navbar .nav > li > .dropdown-menu::before {
+  display:none;
+}
+.nav .dropdown-menu li a {
+    padding: 5px 20px;
+}
+.nav .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a, .nav .dropdown-menu>.active>a, .nav .dropdown-menu>.active>a:hover, .nav .dropdown-menu>.active>a:focus {
+    background: #9933CC; /* Old browsers */
+    background: -moz-linear-gradient(top,  #b996cc 0%, #9933cc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b996cc), color-stop(100%,#9933cc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #b996cc 0%,#9933cc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #b996cc 0%,#9933cc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #b996cc 0%,#9933cc 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #b996cc 0%,#9933cc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b996cc', endColorstr='#9933cc',GradientType=0 ); /* IE6-9 */
+}
+.navbar .pull-right>li>.dropdown-menu .dropdown-menu, .navbar .nav>li>.dropdown-menu.pull-right .dropdown-menu {
+    right: auto;
+    left: 100%;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    margin-top: 0px;
+}
+
+.rev_slider { padding: 0px; margin-bottom: 30px; }
+
+
+/**********************************************************************
+ * UberMenu Skin: Custom
+ * UberMenu - WordPress Mega Menu Plugin http://wpmegamenu.com
+ **********************************************************************/
+
+/* Menu Bar */
+nav.navigation {
+    width: 500px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#megaMenu { }
+
+/* Top Level Items */
+#megaMenu ul.megaMenu > li > a, #megaMenu ul.megaMenu > li > span.um-anchoremulator {
+  font-size: 14px;
+  color: #333;
+  padding: 12px 15px;
+  font-weight: 400;
+}
+
+#megaMenu ul li.menu-item {
+    font-size: 14px;
+}
+
+/* Menu Items with Dropdowns */
+#megaMenu ul li.ss-nav-menu-reg li.megaReg-with-sub > a,
+#megaMenu ul li.ss-nav-menu-reg li.megaReg-with-sub > span.um-anchoremulator,
+#megaMenu ul li.mega-with-sub > a,
+#megaMenu ul li.mega-with-sub > span.um-anchoremulator,
+#megaMenu ul li.ss-nav-menu-mega > a,
+#megaMenu ul li.ss-nav-menu-mega > span.um-anchoremulator {
+  padding-right: 20px;
+}
+
+/* Top Level Menu Item Titles */
+#megaMenu ul.megaMenu > li > a span.wpmega-link-title, #megaMenu ul.megaMenu > li > span.um-anchoremulator span.wpmega-link-title {
+  text-transform: none;
+  text-shadow: 0 -1px 1px #ffffff;
+}
+
+/* Top Level Items - Hover */
+#megaMenu ul.megaMenu > li:hover > a, #megaMenu ul.megaMenu > li > a:hover{
+  color: #333;
+}
+
+/* Top Level Items Title - Hover */
+#megaMenu ul.megaMenu > li:hover > a span.wpmega-link-title,
+#megaMenu ul.megaMenu > li:hover > span.um-anchoremulator span.wpmega-link-title,
+#megaMenu ul.megaMenu > li > a:hover span.wpmega-link-title,
+#megaMenu ul.megaMenu > li > span.um-anchoremulator:hover span.wpmega-link-title,
+#megaMenu ul.megaMenu > li.megaHover > a span.wpmega-link-title,
+#megaMenu ul.megaMenu > li.megaHover > span.um-anchoremulator span.wpmega-link-title {
+  text-shadow: 0 -1px 1px #ffffff;
+}
+
+/* Top Level Items - Current Item */
+#megaMenu ul.megaMenu > li.current-menu-item > a, #megaMenu ul.megaMenu > li.current-menu-parent > a, #megaMenu ul.megaMenu > li.current-menu-ancestor > a {
+  color: #444444;
+}
+
+/* Sub Menu Container Style */
+#megaMenu ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1, #megaMenu ul.megaMenu li.ss-nav-menu-reg ul.sub-menu {
+  border-color: #e0e0e0;
+  color: #888888;
+  text-shadow: 0px 1px 1px #ffffff;
+  -webkit-box-shadow: 1px 1px 1px #dddddd;
+  -moz-box-shadow: 1px 1px 1px #dddddd;
+  box-shadow: 1px 1px 1px #dddddd;
+  background-color: #f9f9f9;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#fefefe));
+  background: -webkit-linear-gradient(top, #f9f9f9, #fefefe);
+  background: -moz-linear-gradient(top, #f9f9f9, #fefefe);
+  background: -ms-linear-gradient(top, #f9f9f9, #fefefe);
+  background: -o-linear-gradient(top, #f9f9f9, #fefefe);
+}
+
+/* Horizontal Sub Menus */
+#megaMenu.megaMenuHorizontal ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1, #megaMenu.megaMenuHorizontal ul.megaMenu li.ss-nav-menu-reg ul.sub-menu {
+  padding:0;
+}
+
+/* Sub Menu Columns */
+#megaMenu ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1 > li {
+  min-width: 100px;
+}
+
+/* Sub Menu Headers */#megaMenu ul li.ss-nav-menu-mega ul.sub-menu-1 > li > a,
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu-1 > li:hover > a,
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu .ss-nav-menu-header > a,
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu-1 > li > span.um-anchoremulator,
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu .ss-nav-menu-header > span.um-anchoremulator,
+.wpmega-widgetarea h2.widgettitle {
+  color: #777777;
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px #ffffff;
+  padding-bottom: .4em;
+  border-bottom: 1px dotted #e9e9e9;
+  margin-bottom: 0.6em;
+}
+
+/* Sub Menu Links & Fake Links */
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu li > a,
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu li > span.um-anchoremulator,
+#megaMenu ul ul.sub-menu li > a,
+#megaMenu ul ul.sub-menu li > span.um-anchoremulator {
+  color: #333;
+  font-size: 14px;
+  text-shadow: 0px 1px 1px #ffffff;
+  background-color: transparent;
+}
+
+/* Sub Menu Link Hover */
+#megaMenu ul li.ss-nav-menu-reg ul.sub-menu li a:hover, #megaMenu ul li.ss-nav-menu-reg ul.sub-menu li.megaHover a, #megaMenu ul li.ss-nav-menu-reg ul.sub-menu li.megaHover ul.sub-menu-2 li a:hover {
+    color: #FFF;
+    background: #9933CC; /* Old browsers */
+    background: -moz-linear-gradient(top,  #b996cc 0%, #9933cc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b996cc), color-stop(100%,#9933cc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #b996cc 0%,#9933cc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #b996cc 0%,#9933cc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #b996cc 0%,#9933cc 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #b996cc 0%,#9933cc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b996cc', endColorstr='#9933cc',GradientType=0 ); /* IE6-9 */
+}
+
+#megaMenu ul li.ss-nav-menu-reg ul.sub-menu li.megaHover ul.sub-menu-2 li a {
+    background: transparent;
+    color:#333;
+}
+
+/* Top Level Search Bar */
+#megaMenu ul.megaMenu > li.menu-item > .wpmega-nonlink > form#searchform {
+  padding-top: 2px;
+}
+
+/* Highlight color */
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-highlight > a, #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-highlight > span.um-anchoremulator {
+  color: #d83f28 !important;
+}
+
+/* Image Spacing */
+#megaMenu .ss-nav-menu-with-img > a > .wpmega-link-title,
+#megaMenu .ss-nav-menu-with-img > a > .wpmega-link-description,
+#megaMenu .ss-nav-menu-with-img > a > .wpmega-item-description,
+#megaMenu .ss-nav-menu-with-img > span.um-anchoremulator > .wpmega-link-title,
+#megaMenu .ss-nav-menu-with-img > span.um-anchoremulator > .wpmega-link-description,
+#megaMenu .ss-nav-menu-with-img > span.um-anchoremulator > .wpmega-item-description {
+  padding-left: 25px;
+}
+.ss-nav-menu-with-img {
+  min-height: 16px;
+}
+
+/* Item Description */
+#megaMenu ul.megaMenu li a span.wpmega-item-description, #megaMenu ul.megaMenu li span.um-anchoremulator span.wpmega-item-description {
+  font-size: 9px;
+  color: #bbbbbb;
+  text-transform: uppercase;
+}
+
+/* Arrow Colors */
+#megaMenu ul li.mega-with-sub > a:after,
+#megaMenu ul li.ss-nav-menu-mega > a:after,
+#megaMenu ul li.mega-with-sub > span.um-anchoremulator:after,
+#megaMenu ul li.ss-nav-menu-mega > span.um-anchoremulator:after {
+  border-top-color: #bbbbbb;
+}
+#megaMenu ul li.ss-nav-menu-reg li.megaReg-with-sub > a:after, #megaMenu ul li.ss-nav-menu-reg li.megaReg-with-sub > span.um-anchoremulator:after {
+  border-left-color: #bbbbbb;
+}
+
+/* Vertical */
+#megaMenu.megaMenuVertical > ul > li > a, #megaMenu.megaMenuVertical > ul > li > span.um-anchoremulator {
+  background-color: #fefefe;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#f4f4f4));
+  background: -webkit-linear-gradient(top, #fefefe, #f4f4f4);
+  background: -moz-linear-gradient(top, #fefefe, #f4f4f4);
+  background: -ms-linear-gradient(top, #fefefe, #f4f4f4);
+  background: -o-linear-gradient(top, #fefefe, #f4f4f4);
+}
+#megaMenu.megaMenuVertical ul li.ss-nav-menu-reg li.megaReg-with-sub > a:after,
+#megaMenu.megaMenuVertical ul li.mega-with-sub > a:after,
+#megaMenu.megaMenuVertical ul li.ss-nav-menu-mega > a:after,
+#megaMenu.megaMenuVertical ul li.ss-nav-menu-reg li.megaReg-with-sub > span.um-anchoremulator:after,
+#megaMenu.megaMenuVertical ul li.mega-with-sub > span.um-anchoremulator:after,
+#megaMenu.megaMenuVertical ul li.ss-nav-menu-mega > span.um-anchoremulator:after {
+  border-left-color: #bbbbbb;
+}
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1, #megaMenu.megaMenuVertical ul.megaMenu li.ss-nav-menu-reg ul.sub-menu {
+  border-left: 1px solid #e0e0e0;
+}
+/* IE7 Hacks */
+#megaMenu.megaMenuHorizontal ul.megaMenu {
+  *border-bottom: none;
+}
+#megaMenu.megaMenuVertical ul.megaMenu {
+  *border-right: none;
+}
+
+
+/* ==========================================================================
+   Sub Menu for Child Pages
+   ========================================================================== */
+
+.show-logo {
+    position: absolute;
+}
+
+[class*="span"].sub-menu {
+    background: #ffffff url('/assets/img/sub-menu-bkgd.jpg') bottom center no-repeat;
+    height: 60px;
+    border-top: 1px solid #eaeaea;
+    margin-bottom: 40px;
+}
+
+[class*="span"].sub-menu ul {
+    list-style: none;
+    float: right;
+    margin-top: 13px;
+}
+
+[class*="span"].sub-menu ul li {
+    float: left;
+    margin: 0 10px;
+    padding: 0 5px;
+}
+
+[class*="span"].sub-menu ul li:last-child {
+    margin-right: 0px;
+}
+
+[class*="span"].sub-menu ul li a {
+    color: #333;
+    padding: 7px 0;
+    display: block;
+}
+
+[class*="span"].sub-menu ul li a:hover {
+    color:#9933CC;
+}
+
+[class*="span"].sub-menu ul li a.purple-button {
+    padding: 6px 25px;
+    color:#FFF;
+}
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content { margin-bottom: 0px; }
+.caption h1 {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    color: #6f6f6f;
+}
+span.purple {
+    color: #9933CC;
+}
+
+.wpb_separator {
+    border-top: 1px solid #ebebeb;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.caption .wpb_separator {
+    border-top: 1px solid #ebebeb;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.tile h2 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.tile p {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.show_image img {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    0px 10px 30px rgba(0, 0, 0, 0.75);
+    box-shadow:         0px 10px 30px rgba(0, 0, 0, 0.75);
+}
+
+.show_video_modal {
+    width: 800px;
+    margin-left: -400px;
+}
+
+.video_link {
+    position: absolute;
+    top: 33px;
+    left: 50%;
+    margin-left: -20px;
+    color: #fff;
+}
+.video_link:hover, .video_link:focus, .video_link:active {
+    text-decoration: none;
+    color:#CCC;
+}
+[class^="icon-"].purple, [class*=" icon-"].purple {
+    color:#93C;
+}
+[class^="icon-"].footnote, [class*=" icon-"].footnote {
+    font-size: 10px;
+    vertical-align: super;
+    color: #93c;
+}
+[class^="icon-"].footnote-larger, [class*=" icon-"].footnote-larger {
+    font-size: 14px;
+    color: #93c;
+}
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+.main { }
+
+
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.sidebar { }
+
+
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry .byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+
+/* ==========================================================================
+   Tiles
+   ========================================================================== */
+.da-thumbs {
+    list-style: none;
+    margin-left: 0;
+}
+.da-thumbs li {
+    float: left;
+    margin: 5px;
+    background: #fff;
+    position: relative;
+}
+.da-thumbs li a,
+.da-thumbs li a img {
+    display: block;
+    position: relative;
+}
+.da-thumbs li a {
+    height: 210px;
+    overflow: hidden;
+    color:#FFF;
+}
+.da-thumbs li a div {
+    position: absolute;
+    background: rgba(134,51,105,0.7);
+    width: 100%;
+    height: 100%;
+}
+.da-thumbs li a div h3 {
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1.3;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.da-thumbs li a div p {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.5;
+    margin: 0 10px 10px 10px;
+}
+.da-thumbs li a div p.link {
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    text-align: right;
+    margin: 0 10px 0 0;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+
+
+/* ==========================================================================
+   Contact Form 7
+   ========================================================================== */
+.wpcf7 label {
+    float: left;
+    width: 140px;
+    margin-right: 30px;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 textarea {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    box-shadow: inset 2px px 3px 1px #333333;
+    -webkit-box-shadow: inset 2px px 3px 1px #333333;
+    -moz-box-shadow: inset 2px px 3px 1px #333333;
+}
+
+.wpcf7 textarea {
+    height: 65px;
+}
+
+.wpcf7 input[type="submit"]{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.wpcf7 .wpcf7-form {
+    position: relative;
+    margin-top: 30px;
+}
+
+.wpcf7 .wpcf7-form div.wpcf7-response-output {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.wpcf7 .wpcf7-form div.wpcf7-response-output .alert {
+    margin-bottom: 0;
+    margin-left:280px;
+}
+
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+.grey-button {
+	-moz-box-shadow:inset 0px 0px 0px 0px #dfdfdf;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #dfdfdf;
+	box-shadow:inset 0px 0px 0px 0px #dfdfdf;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #666666), color-stop(1, #aaaaaa) );
+	background:-moz-linear-gradient( center top, #666666 5%, #aaaaaa 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#aaaaaa');
+	background-color:#666666;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px 50px;
+	text-decoration:none;
+        margin-left: 100px;
+}.grey-button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #aaaaaa), color-stop(1, #666666) );
+	background:-moz-linear-gradient( center top, #aaaaaa 5%, #666666 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#aaaaaa', endColorstr='#666666');
+	background-color:#aaaaaa;
+}.grey-button:active {
+	position:relative;
+	top:1px;
+}
+/* This imageless css button was generated by CSSButtonGenerator.com */
+
+.purple-button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #d197fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #d197fe;
+	box-shadow:inset 0px 1px 0px 0px #d197fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a53df6), color-stop(1, #7c16cb) );
+	background:-moz-linear-gradient( center top, #a53df6 5%, #7c16cb 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a53df6', endColorstr='#7c16cb');
+	background-color:#a53df6;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #9c33ed;
+	display:inline-block;
+	color:#ffffff;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px 50px;
+        margin: 0 auto;
+        display: block;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7d15cd;
+        text-transform: uppercase;
+}.purple-button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7c16cb), color-stop(1, #a53df6) );
+	background:-moz-linear-gradient( center top, #7c16cb 5%, #a53df6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7c16cb', endColorstr='#a53df6');
+	background-color:#7c16cb;
+        color:#FFF;
+        text-decoration: none;
+}.purple-button:active {
+	position:relative;
+	top:1px;
+}
+/* This imageless css button was generated by CSSButtonGenerator.com */
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+footer.expanded {
+  background: #662d91;
+  position: relative;
+}
+footer.expanded #footer {
+  margin-bottom: 0;
+}
+footer.expanded .footer_bottom, footer.expanded .footer_bottom .row {
+  margin-bottom: 0;
+}
+footer #footer {
+  padding-top: 15px;
+  margin-bottom: 0;
+  color: #ffffff;
+  zoom: 1;
+  position: relative;
+  z-index: 100;
+}
+footer #footer:before,
+footer #footer:after {
+  display: table;
+  content: "";
+}
+footer #footer:after {
+  clear: both;
+}
+footer .footer_bottom {
+  background: #5b2881;
+  padding: 15px 0 0;
+  margin-bottom: 20px;
+  zoom: 1;
+}
+footer .footer_bottom:before,
+footer .footer_bottom:after {
+  display: table;
+  content: "";
+}
+footer .footer_bottom:after {
+  clear: both;
+}
+footer .footer_bottom .footer_text {
+  padding: 0px;
+  color: #FFF;
+}
+footer .footer_bottom .footer_text a {
+  color: #fff;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -ms-transition: all 200ms linear;
+  transition: all 200ms linear;
+  -webkit-transition: all all 200ms linear ease-out;
+  -moz-transition: all all 200ms linear ease-out;
+  transition: all all 200ms linear ease-out;
+}
+footer .footer_bottom .footer_text a:hover {
+  color: #ebebeb;
+  border-color: #FFF;
+}
+footer .footer_bottom .footer_links {
+  float: right;
+}
+footer .footer_bottom .footer_links li {
+  display: inline-block;
+  margin: 0 3px;
+  transition: none '';
+  -webkit-transition: none '';
+  -moz-transition: none '';
+  -o-transition: none '';
+}
+footer .footer_bottom .footer_links li:before {
+  content: '|';
+  color: #FFF;
+  display: inline-block;
+  margin-right: 7px;
+  color: #76429c;
+}
+footer .footer_bottom .footer_links li:nth-child(1):before {
+  display: none;
+}
+footer .footer_bottom .footer_links li a {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #f2f2f2;
+  -webkit-transition: 200ms ease-in-out 200ms;
+  -moz-transition: 200ms ease-in-out 200ms;
+  -o-transition: 200ms ease-in-out 200ms;
+  -ms-transition: 200ms ease-in-out 200ms;
+  transition: 200ms ease-in-out 200ms;
+  -webkit-transition: all 200ms ease-in-out 200ms ease-out;
+  -moz-transition: all 200ms ease-in-out 200ms ease-out;
+  transition: all 200ms ease-in-out 200ms ease-out;
+}
+footer .footer_bottom .footer_links li a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer .blogRoll {
+    list-style: none;
+    margin-left: 0px;
+    min-height: 115px;
+}
+
+footer .blogRoll li a {
+    color:#FFF;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+footer .followUs {}
+footer .followUs h3 {
+    float:left;
+    margin:0;
+    line-height: 32px;
+}
+
+footer .followUs a {
+    float: right;
+    margin: 0 5px;
+    display: block;
+    width: 32px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    background: transparent;
+}
+footer .followUs a:hover {
+    background: #333;
+    box-shadow:         0px 0px 30px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+    -moz-box-shadow:    0px 0px 30px rgba(0, 0, 0, 1);
+}
+
+footer .followUs a img {
+    width: 32px;
+    height: 32px;
+}
+
+footer .footer_img {
+    position: absolute;
+    bottom:47px;
+    left:48%;
+    background: url('/assets/img/footer-bkgd.png') top center no-repeat;
+    width:230px;
+    height: 330px;
+    z-index: 1;
+}
+/* ==========================================================================
+   Footer Flex Slider Testimonials
+   ========================================================================== */
+
+footer .testimonials {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    margin: 0 0 50px 0;
+    padding-bottom: 10px;
+}
+footer .testimonials .slides li {
+    background: #FFF;
+}
+footer .testimonials .slides li .flex-caption {
+    color:#5b2881;
+}
+footer .testimonials .slides li .flex-caption .post-title {
+    position: absolute;
+    top: 100%;
+    left: 100px;
+    color: #FFF;
+    margin-top: 6px;
+    border-bottom: none;
+}
+footer .testimonials .slides li .flex-caption .post-title span {
+    display: block;
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 10px;
+}
+footer .testimonials .slides li .flex-caption .post-content {
+    padding: 10px;
+    min-height: 80px;
+}
+footer .testimonials .slides li .flex-caption .post-content:after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 40px;
+    border-style: solid;
+    border-width: 30px 0 0 50px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+footer .testimonials .flex-control-paging {
+    top: -32px;
+    text-align: right;
+}
+footer .testimonials .flex-control-paging li {
+    margin: 0 3px;
+}
+footer .testimonials .flex-control-paging li a {
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    width: 8px;
+    height: 8px;
+    background: #FFF;
+    color:#FFF;
+    overflow: hidden;
+    border: 1px solid transparent;
+}
+footer .testimonials .flex-control-paging li a.flex-active {
+    background:#999;
+    color:#999;
+    border: 1px solid #999;
+}
+
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    nav.navigation {
+        width: 100%;
+        position: relative;
+    }
+    
+    [class*="span"] .row [class*="span"].show-logo, [class*="span"].sub-menu {
+        display: hidden;
+    }
+    footer .footer_img {
+        bottom: 45px;
+        left: 20px;
+    }
+    footer .footer_bottom .footer_text {
+        padding-left:10px;
+        padding-bottom:10px;
+    }
+}
